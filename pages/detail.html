@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="../frontend/library/css/bootstrap.css">
+    <link rel="stylesheet" href="../frontend/style/detail.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>SPORTSTORE - Detail</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.html">SPORTSTORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin-left: 15px;" href="">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin-left: 15px;" href="#product">Product</a>
+            </li>
+            <li class="nav-item" style="margin-left: 15px;">
+              <a href="" class="nav-link" aria-disabled="true">
+                <hr class="garis-user">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin-left: 15px; margin-top: -4px;" href="#">
+              <img src="../frontend/img/user.png" alt="" style="margin-right: 15px;">Hi, Celyn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="margin-left: 15px; margin-top: -8px;" href="#">
+              <img src="../frontend/img/cart.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="../index.html">Home</a>
+        <span class="breadcrumb-item active">Product Details</span>
+      </nav>
+    </header>
+    <!-- tutup navbar -->
+
+    <!-- detail -->
+    <section class="detail">
+      <div class="row">
+        <div class="col-8">
+          <img src="../frontend/img/detail-lg.png" alt="" style="cursor: crosshair;">
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12"><img style="margin-left: 100px;" src="../frontend/img/pic.png" alt=""></div>
+            <div class="col-12"><img style="margin-left: 100px; margin-top: 54px;" src="../frontend/img/pic.png" alt=""></div>
+            <div class="col-12"><img style="margin-left: 100px; margin-top: 54px;" src="../frontend/img/pic.png" alt=""></div>
+            <div class="col-12"><img style="margin-left: 100px; margin-top: 54px;" src="../frontend/img/pic.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="info mt-5">
+        <div class="row">
+          <div class="col-8 about">
+            <h1>About The Jersey</h1>
+            <p>Unleash your potential on the court with the Youth FreeStyle Sublimated Sleeveless Volleyball Jersey by <br> High Five. Designed for young athletes ready to spike, serve, and dive with abandon, this sleeveless <br> jersey allows for unrestricted movement, letting the energy and excitement of the game take center <br> stage. <br>With a UPF rating of 35+, this jersey offers sun protection, making it ideal for both indoor and outdoor <br> play. The tag-free label and crew neck design provide comfort, allowing you to focus solely on your <br> game without distraction. <br>FreeStyle Sublimation lets you create a custom look that will stand the test of time in just a few clicks. <br> Your team colors will stay vibrant wash after wash and wear after wear. Custom elements like names <br> and numbers will never crack or peel as they’re a part of the garment itself! </p>
+          </div>
+          <div class="col-4 booking-bike">
+            <h3>Place Order</h3>
+            <h2>Rp 230.000</h2>
+            <div class="color mt-3">
+              <span>Flower</span>
+              <div class="dropdown d-flex mt-2">
+                <button class="btn btn-color" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Black
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item disabled" href="#">Tosca</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Navy</a></li>
+                </ul>
+                <button class="btn btn-choose" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+                </button>
+              </div>
+            </div>
+            <div class="size mt-4">
+              <span>Size</span>
+              <div class="size-number d-flex mt-2">
+                <button type="number" class="btn btn-decreased" data-toggle="decreased-number">-</button>
+                <input type="text" name="size" id="size" class="input-size" placeholder="M">
+                <button type="number" class="btn btn-increased" data-toggle="increased-number">+</button>
+              </div>
+            </div>
+            <a href="bookingpage1.html" type="button">
+              <button role="button" class="btn btn-booking">Continue to Order</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommended -->
+
+    <section class="popular-product" id="product">
+      <div class="section-title">
+        <h1>Popular&nbsp;Products</h1>
+      </div>
+      <div class="row mt-5">
+        <div class="col-3">
+          <a href="pages/detail.html" class="component-products d-block">
+            <center class="products-img mb-4 text-center">
+              <img src="../frontend/img/item1.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              VOLLEY BALL
+            </div>
+            <div class="products-price">
+              $333,33
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item2.png">
+            </center>
+            <div class="products-text mb-2">
+              ARM SLEEVES
+            </div>
+            <div class="products-price">
+              $350
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item3.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              KNEE DECK
+            </div>
+            <div class="products-price">
+              $50
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item4.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              JERSEY - BLUESEA
+            </div>
+            <div class="products-price">
+              $250
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item5.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              ASICS-WHOTESHOES
+            </div>
+            <div class="products-price">
+              $30
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <div class="products-img mb-4 text-center" >
+              <img src="../frontend/img/item6.png" class="img-fluid">
+            </div>
+            <div class="products-text mb-2">
+              MIZUNO - SPORTSOCKEN
+            </div>
+            <div class="products-price">
+              $1,100
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item5.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              ASICS-WHOTESHOES
+            </div>
+            <div class="products-price">
+              $30
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="component-products d-block">
+            <center class="products-img mb-4">
+              <img src="../frontend/img/item3.png" class="img-fluid">
+            </center>
+            <div class="products-text mb-2">
+              KNEE DECK
+            </div>
+            <div class="products-price">
+              $50
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- tutup recommended -->
+
+    <!-- testimoni -->
+    <section class="testimonial">
+      <div class="row">
+        <div class="col-4">
+          <div class="testimonial-hero">
+            <img src="../frontend/img/testi-img1.png" class="testimonial-img">
+            <div class="testimonial-frame"></div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-7 my-auto">
+          <div class="stars">
+            <img src="../frontend/img/Stars.png">
+          </div>
+          <h2 class="testimonial-text">VOLLEYBALL SPORT <br> SPECIAL COLLECTION</h2>
+          <p class="testimonial-name">Berlyana, Programmer</p>
+          <a href="#" class="btn btn-testimonial">Read Story</a>
+        </div>
+      </div>
+    </section>
+    <!-- tutup testimoni -->
+
+    <!-- footer -->
+    <section>
+      <div class="footer">
+        <div class="row">
+          <div class="col-6">
+            <h2>SPORTSTORE</h2>
+            <a href="#">
+              <img src="../frontend/img/ig.png">
+            </a>
+            <a href="#">
+              <img src="../frontend/img/fb.png" style="margin-left: 10px;">
+            </a>
+            <a href="#">
+              <img src="../frontend/img/yt.png" style="margin-left: 10px;">
+            </a>
+          </div>
+          <div class="col-6 text-right">
+            <h5>Address</h5>
+            <p>Jl. Kaharuddin Nasution No.01, <br>
+              Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>
+              0812-1234-578</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-small my-auto">
+        <div class="row">
+          <div class="col-12">
+            <p>2020 Copyright <a href="#">SPORTSTORE.</a> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tutup footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f82c2d8a26.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="../frontend/library/js/bootstrap.js"></script>
+
+
+  </body>
+</html>
